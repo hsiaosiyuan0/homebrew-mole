@@ -5,10 +5,10 @@ class Mole < Formula
 
   if Hardware::CPU.arm?
     url 'https://github.com/hsiaosiyuan0/homebrew-mole/raw/master/mole-0.0.2-darwin-arm64.tar.gz'
-    sha256 '442201a6e7b7686194cf853bd7fbbd54aafd4ce0fa0c7ce0ad341de42ff9b209'
+    sha256 'dd837d3b446b51d8f6bfb57fbfc88e2adae00bb7c16f4f586e05e234ff51fde3'
   else
     url 'https://github.com/hsiaosiyuan0/homebrew-mole/raw/master/mole-0.0.2-darwin-amd64.tar.gz'
-    sha256 '3b16c4cbd4f99f3fda399707a6f457673d1144477ddac9cc0294d014ed529514'
+    sha256 'acc2feeb06fed79a68c059876b7d92a3d864ff2035d7e84bac2f76cf21ff8d18'
   end
 
   def install
